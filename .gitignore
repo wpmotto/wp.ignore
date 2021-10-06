@@ -1,0 +1,20 @@
+*.log
+.env
+.DS_Store
+db.php
+debug.log
+vendor
+/advanced-cache.php
+/backup*
+/blogs.dir/
+/cache/
+/upgrade/
+/languages/
+/wp-cache-config.php
+# Uploads should be synced.
+/uploads/
+# Only mu-plugins should be versioned, since we control their source code.
+/plugins/
+# Ignore all themes except our own
+/themes/*
+# !/themes/sage
